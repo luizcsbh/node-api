@@ -2,9 +2,6 @@
 ![Alt Text](https://img.shields.io/github/forks/luizcsbh/node-api)
 ![Alt Text](https://img.shields.io/github/stars/luizcsbh/node-api)
 ![Alt Text](https://img.shields.io/github/license/luizcsbh/node-api)
-![Alt Text](https://img.shields.io//librariesio/github/luizcsbh/node-api)
-
-
 
 # node-api
 API node
