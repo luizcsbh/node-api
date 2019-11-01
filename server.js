@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 //Iniciando o DB
-mongoose.connect("mongodb+srv://mongodb:mongodbapp@clusternode-api-eiabw.mongodb.net/test?retryWrites=true&w=majority/nodeapi", { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true });
+mongoose.connect("mongodb+srv://mongodb:mongodbapp@clusternode-api-eiabw.mongodb.net/test?retryWrites=true&w=majority/nodeapi", { useNewUrlParser: true });
 
 requireDir('./src/models');
 
