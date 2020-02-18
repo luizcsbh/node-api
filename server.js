@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 //Iniciando o DB
-mongoose.connect("mongodb+srv://mongodb:3MLMPykuDfiRjrHH@clusternode-api-eiabw.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/api-node", { useNewUrlParser: true });
 
 requireDir('./src/models');
 
